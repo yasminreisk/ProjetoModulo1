@@ -50,3 +50,19 @@ body {
     transition: ease-in 0.5s;
     cursor: pointer;
 }
+
+@media (max-width: 700px){
+
+body {
+    background-image: url(Malevolat.png);
+    background-color:  #ECE4DB;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+    margin: 5% 100px;
+    }
+}

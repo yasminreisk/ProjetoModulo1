@@ -20,7 +20,7 @@ body {
 .title {
     font-family: 'Pacifico', cursive;
     font-size: 45px;
-    color: #656d4a;
+    color: #76654A;
     padding: 15px;
 }
 
@@ -29,7 +29,7 @@ body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
-    color: #656d4a;
+    color: #76654A;
     margin: 70px 300px;
 }
 
@@ -43,7 +43,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     padding: 25px;
-    color: #656d4a;
+    color: #76654A;
     font-family: 'Pacifico', cursive;
     font-size: 45px;
 }
@@ -62,7 +62,7 @@ button:hover {
 
 .imagem {
     border-radius: 100px;
-    border: 5px solid #656d4a;
+    border: 5px solid #76654A;
 }
 
 .imagem:hover{
@@ -80,5 +80,20 @@ button:hover {
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color: #656d4a;
+    color: #76654A;
 }
+
+@media (max-width: 700px){
+
+    body {
+        background-image: url("./imagens/bg.png");
+        background-color:  #ECE4DB;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1%;
+        margin: 5% 100px;
+    }

@@ -8,3 +8,16 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+body {
+    background-image: url(vitoria.png);
+    background-color:  #ECE4DB;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1%;
+    margin: 5% 100px;
+}

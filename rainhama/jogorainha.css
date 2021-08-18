@@ -51,3 +51,19 @@ body {
     cursor: pointer;
 }
 
+@media (max-width: 700px){
+
+    body {
+        background-image: url(QueenT.png);
+        background-color:  #ECE4DB;
+    }
+    
+    .main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1%;
+        margin: 5% 100px;
+        }
+    }
+
