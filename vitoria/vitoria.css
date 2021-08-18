@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(vitoria.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

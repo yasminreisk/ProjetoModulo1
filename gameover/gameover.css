@@ -1,0 +1,38 @@
+body {
+    background-image: url(gameover.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 450px;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #63295edc;
+    color:#F2E9BD;
+    text-decoration: none;
+    padding: 18px 31px;
+    margin-top: 10px;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    font-weight: 20px;
+    width: 200px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+    border-radius: 30px;
+}
+
+.botao:hover {
+    background-color: #b384c4cd;
+    transition: 3s;
+}
