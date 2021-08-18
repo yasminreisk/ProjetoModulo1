@@ -8,6 +8,8 @@ function Malevola1(){
 
     if (opcao == 1){
         location.assign ('../gameover/gameover.html')
+
+        alert ("A menina é muito lerdinha, acaba furando o dedo e desmaia.")
         break;
     }
     else if (opcao == 2){
@@ -32,6 +34,8 @@ function Malevola2(){
     }
     else if (opcao == 2){
         location.assign ('../gameover/gameover.html')
+
+        alert ("Aurora cai, bate a cabeça e morre! Malévola nunca vai se perdoar...")
         break;
     }
         alert ("Por favor, responda com 1 ou 2.")
@@ -47,10 +51,14 @@ function Malevola3(){
 
     if (opcao == 1){
         location.assign ('../vitoria/vitoria.html')
+
+        alert ("Sua caminhada não deu muito certo, mas pelo menos ninguém vai encher o seu saco.")
         break;
     }
     else if (opcao == 2){
         location.assign ('../gameover/gameover.html')
+
+        alert ("Apesar de serem chatas, as fadinhas não merecem isso e Malévola se arrepende depois.")
         break;
     }
         alert ("Por favor, responda com 1 ou 2.")

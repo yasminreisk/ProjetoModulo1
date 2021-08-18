@@ -8,6 +8,8 @@ function Ursula1(){
 
     if (opcao == 1){
         location.assign ('../gameover/gameover.html')
+
+        alert ("Ursula nunca mais conseguiu passar na seletiva.")
         break;
     }
     else if (opcao == 2){
@@ -31,6 +33,8 @@ function Ursula2(){
         break;
     }
     else if (opcao == 2){
+
+        alert ("A música é muito chata, então na primeira frase, os jurados mandam Ursula sair do palco!")
         location.assign ('../gameover/gameover.html')
         break;
     }
@@ -48,10 +52,14 @@ function Ursula3(){
 
     if (opcao == 1){
         location.assign ('../gameover/gameover.html')
+
+        alert ("Ursula tenta atacar Ariel, mas é presa pelos seguranças.")
         break;
     }
     else if (opcao == 2){
         location.assign ('../vitoria/vitoria.html')
+
+        alert ("Ursula recebe o prêmio e chora muito.")
         break;
     }
         alert ("Por favor, responda com 1 ou 2.")
